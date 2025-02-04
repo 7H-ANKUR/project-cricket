@@ -310,7 +310,7 @@ void playInnings(Batsman batsmen[], Bowler bowlers[], int *numBowlers, int maxOv
                         strcpy(batsmen[striker].dismissal, "Bowled");
                         break;
                     case 7:
-                        strcpy(batsmen[striker].dismissal, "Caught and Bowled");
+                        strcpy(batsmen[striker].dismissal, "timed out");
                         break;
                     case 8:
                         strcpy(batsmen[striker].dismissal, "Retired Hurt");
