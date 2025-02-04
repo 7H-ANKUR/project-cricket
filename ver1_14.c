@@ -254,7 +254,7 @@ void playInnings(Batsman batsmen[], Bowler bowlers[], int *numBowlers, int maxOv
                 }
                 
                 printf("How did the batsman get out?\n");
-                printf("1. LBW\n2. Catch Out\n3. Hit Wicket\n4. Stumped\n5. Run Out\n6. Bowled\n7. Caught and Bowled\n8. Retired Hurt\n9. Hit the Ball Twice\n10. Obstructing the Field\n");
+                printf("1. LBW\n2. Catch Out\n3. Hit Wicket\n4. Stumped\n5. Run Out\n6. Bowled\n7. timed out\n8. Retired Hurt\n9. Hit the Ball Twice\n10. Obstructing the Field\n");
                 printf("Enter your choice: ");
                 int dismissalChoice;
                 scanf("%d", &dismissalChoice);
