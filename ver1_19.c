@@ -61,7 +61,7 @@ void playInnings(Batsman batsmen[], Bowler bowlers[], int *numBowlers, int maxOv
     scanf("%s", batsmen[1].name);
 
     // Prompt the user to enter the name of the initial bowler
-    printf("Enter the name of the bowler for %s: ", teamName);
+    printf("Enter the name of the bowler to bowl for %s: ", teamName);
     scanf("%s", bowlers[*numBowlers].name);
     bowlers[*numBowlers].oversBowled = 0;
     bowlers[*numBowlers].runsConceded = 0;
